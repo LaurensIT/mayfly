@@ -39,7 +39,7 @@ return array(
 		'retrievep1' => 'On this page you can retrieve the password that :sender has sent you.',
 		'retrievep2' => 'Please be aware you can only retrieve your password once.',
 		'retrievep3' => 'Please note that it can take some time for the process to complete. You might notice your browser \'hanging\' for a little. This is expected.',
-		'Start Fetch' => 'Start Fetch',
+		'Start Fetch' => 'Retrieve password',
 		'genkey' => 'Generating Key... (this can take some time)',
 		'gettingencrypted' => 'Getting encrypted password',
 		'Your password is' => 'Your password is',
