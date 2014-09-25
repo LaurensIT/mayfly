@@ -1,0 +1,3 @@
+if (Crypto)
+	alert('test');
+
