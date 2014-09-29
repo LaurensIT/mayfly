@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/docs-assets/ico/favicon.png">
 
-    <title>PWShare.com</title>
+    <title>Mayfly</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/dist/css/bootstrap-signin.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 @endif
     <div class="container">
 		<div class='form-signin'>
-		<h3><img src='/logo.png' style='height: 45px; width: 64px;'>pwshare.com</h3>
+		<h3><img src='/logo.png' style='height: 45px; width: 64px;'>Mayfly</h3>
 		@yield('content')
 		</div>
     </div> <!-- /container -->

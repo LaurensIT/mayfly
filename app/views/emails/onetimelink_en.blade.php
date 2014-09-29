@@ -12,7 +12,7 @@
 
 	   <h3 style="margin:0px 0px 15px;padding:0px;font-family:HelveticaNeue-Light,'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;line-height:1.1;color:rgb(0,0,0);font-weight:500;font-size:27px">Hello!</h3>
 <p class="" style="margin:0px;margin-bottom: 10px;padding:0px;font-size:17px;line-height:1.6">{{ $name }} has send you a password</p>
-<p style="margin:0px;margin-bottom: 10px;padding:0px;font-size:14px;line-height:1.6">{{ $name }} has used <a href="https://pwshare.com" target="_blank" style="margin:0px;padding:0px;color:rgb(43,166,203)">pwshare.com</a> to send you a password. You can retrieve the password using the link below.</p>
+<p style="margin:0px;margin-bottom: 10px;padding:0px;font-size:14px;line-height:1.6">{{ $name }} has used <a href="https://{{ $_SERVER['HTTP_HOST']}}" target="_blank" style="margin:0px;padding:0px;color:rgb(43,166,203)">Mayfly</a> to send you a password. You can retrieve the password using the link below.</p>
 <p class="" style="margin:0px 0px 15px;padding:15px;font-size:14px;line-height:1.6;background-color:rgb(236,248,255)">
   <a class="" href="https://{{ $_SERVER['HTTP_HOST']}}/onetime/view/{{ $dbid }}/{{ $session }}/{{ $pkid }}/{{ $passcode}}" target="_blank" style="margin:0px;padding:6px 12px;text-align:center;vertical-align:middle;color:rgb(43,166,203);background-color:#DFDFDF;font-weight:bold">Retrieve your password!</a>
 </p>
@@ -25,5 +25,5 @@
 
 <div class="" style="margin:0px auto;padding:15px;max-width:600px"><table style="margin:0px;padding:0px;width:600px"><tbody style="margin:0px;padding:0px"><tr style="margin:0px;padding:0px"><td align="center" style="padding:0px;font-family:'Helvetica Neue',Helvetica,Helvetica,Arial,sans-serif">
 
-<p style="margin:0px;padding:0px;font-size:14px;line-height:1.6"><a href="https://pwshare.com/terms" target="_blank" style="margin:0px;padding:0px;color:rgb(43,166,203)">Terms</a></p>
+<p style="margin:0px;padding:0px;font-size:14px;line-height:1.6"><a href="https://{{ $_SERVER['HTTP_HOST']}}/terms" target="_blank" style="margin:0px;padding:0px;color:rgb(43,166,203)">Terms</a></p>
 </td></tr></tbody></table></div></td></tr></tbody></table></div>

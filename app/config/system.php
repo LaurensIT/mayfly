@@ -23,6 +23,7 @@ along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 return array(
-    'rsabackend' => 'http://localhost:8001'
-    
+    'rsabackend' => 'http://localhost:8001',
+    'contactemail' => 'changeme@config/system.php',
+    'owner' => 'changeme@config/system.php'
     );

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/docs-assets/ico/favicon.png">
 
-    <title>PWShare.com</title>
+    <title>Mayfly</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/dist/css/bootstrap-cyso.css" rel="stylesheet">
@@ -27,7 +27,7 @@
         		<span class="icon-bar"></span>
         		<span class="icon-bar"></span>
       		</button>
-	<div class="pull-left"><a href="/" id=""  class="navbar-brand" style='margin-top: 8px'>PWShare</a></div>
+	<div class="pull-left"><a href="/" id=""  class="navbar-brand" style='margin-top: 8px'>Mayfly</a></div>
       	<div class="nav-collapse collapset">
         	<ul class="nav navbar-nav">
                   	<li class="">
