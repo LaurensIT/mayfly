@@ -28,6 +28,7 @@
 <div class="btn-group">
 	<button style='width: 113px' id='btn1day' onClick='setValid(1);return false;' class="btn btn-default">{{ trans('onetime.24 Hours') }}</button>
 	<button style='width: 113px' id='btn1week' onClick='setValid(7); return false;' class="btn btn-default active">{{ trans('onetime.1 Week') }}</button>
+        <button style='width: 113px' id='btn2week' onClick='setValid(14); return false;' class="btn btn-default active">{{ trans('onetime.2 Week') }}</button>
 	<button style='width: 113px' id='btn1month' onClick='setValid(30); return false;' class="btn btn-default">{{ trans('onetime.30 Days')}}</button>
 </div>
 
@@ -44,11 +45,13 @@ function setValid(duration)
 {
 	document.getElementById('btn1day').className='btn btn-default';
 	document.getElementById('btn1week').className='btn btn-default';
+        document.getElementById('btn2week').className='btn btn-default';
 	document.getElementById('btn1month').className='btn btn-default';
 	if (duration == 1){document.getElementById('btn1day').className='btn btn-default active' }
 	if (duration == 7){document.getElementById('btn1week').className='btn btn-default active' }
+        if (duration == 14){document.getElementById('btn2week').className='btn btn-default active' }
 	if (duration == 30){document.getElementById('btn1month').className='btn btn-default active' }
-	validity=x;
+	validity=duration;
 }
 
 function doGetData()

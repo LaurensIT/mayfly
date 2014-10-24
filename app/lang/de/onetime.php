@@ -29,6 +29,7 @@ return array(
                 'Link Validity' => 'Link-Gültigkeit',
                 '24 Hours' => '24 stunden',
                 '1 Week' => '1 Woche',
+                '2 Week' => '2 Woche',
                 '30 Days' => '30 tage',
                 'overview' => 'Überblick',
                 'MayFly workings' => 'MayFly betrieb',
