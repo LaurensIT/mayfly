@@ -29,7 +29,7 @@ along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 		'Link Validity' => 'Link geldigheid',
 		'24 Hours' => '24 uur',
 		'1 Week' => '1 week',
-                '2 Week' => '1 weken',
+                '2 Week' => '2 weken',
 		'30 Days' => '30 dagen',
 		'overview' => 'Overzicht',
 		'MayFly workings' => 'Werking van Mayfly',
