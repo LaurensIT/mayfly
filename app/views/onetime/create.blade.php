@@ -28,7 +28,7 @@
 <div class="btn-group">
 	<button style='width: 84px' id='btn1day' onClick='setValid(1);return false;' class="btn btn-default">{{ trans('onetime.24 Hours') }}</button>
 	<button style='width: 85px' id='btn1week' onClick='setValid(7); return false;' class="btn btn-default active">{{ trans('onetime.1 Week') }}</button>
-        <button style='width: 85px' id='btn2week' onClick='setValid(14); return false;' class="btn btn-default">{{ trans('onetime.2 Week') }}</button>
+        <button style='width: 85px' id='btn2week' onClick='setValid(14); return false;' class="btn btn-default ">{{ trans('onetime.2 Week') }}</button>
 	<button style='width: 85px' id='btn1month' onClick='setValid(30); return false;' class="btn btn-default">{{ trans('onetime.30 Days')}}</button>
 </div>
 
@@ -101,6 +101,7 @@ function doGetData()
 					pwlink=data.link;
 					nhtml = "<a alt='Copy link to your clipboard!' data-clipboard-target='newpwlink' id='copybtn' style='height: 45px' class='btn btn-default'><span style='line-height: 28px' class='fa fa-file-o'></span></a>";
 					document.getElementById('sbarcontainer').innerHTML = '<input id="newpwlink" class="form-control" style="width: 313px; display: inline" type="text" value="' + data.link + '"/>' + nhtml;
+                                        $('#newpwlink').css('width', '100%').css('width', '-=37px');
 					zclipstatus=3;
 					prepareClip();
 				} else {
