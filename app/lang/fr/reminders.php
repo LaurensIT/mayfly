@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 /*
 This file is part of Mayfly.
 
@@ -17,22 +16,23 @@ You should have received a copy of the GNU General Public License
 along with Mayfly.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-
 return array(
 
 	/*
 	|--------------------------------------------------------------------------
-	| Pagination Language Lines
+	| Password Reminder Language Lines
 	|--------------------------------------------------------------------------
 	|
-	| The following language lines are used by the paginator library to build
-	| the simple pagination links. You are free to change them to anything
-	| you want to customize your views to better match your application.
+	| The following language lines are the default lines which match reasons
+	| that are given by the password broker for a password update attempt
+	| has failed, such as for an invalid token or invalid new password.
 	|
 	*/
 
-	'previous' => '&laquo; Previous',
+	"password" => "Les mots de passe doivent avoir 6 caractères minimum et ils doivent correspondre.",
+	
+	"user"     => "Impossible de trouver le contact correspondant à cette adresse de messagerie.",
 
-	'next'     => 'Next &raquo;',
+	"token"    => "Moyen d\'authentification non valide.",
 
 );

@@ -1,5 +1,4 @@
 <?php 
-
 /*
 This file is part of Mayfly.
 
@@ -17,7 +16,6 @@ You should have received a copy of the GNU General Public License
 along with Mayfly.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-
 return array(
 
 	/*
@@ -31,8 +29,8 @@ return array(
 	|
 	*/
 
-	'previous' => '&laquo; Previous',
+	'previous' => '&laquo; Page précédente ',
 
-	'next'     => 'Next &raquo;',
+	'next'     => 'Page suivante &raquo;',
 
 );
