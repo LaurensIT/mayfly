@@ -39,6 +39,7 @@
 			<li><a href='/setLang?lang=en&ref={{ base64_encode($_SERVER['REQUEST_URI'])}}'><img src='/img/icons/flag_usa.png'>English</a></li>
 			<li><a href='/setLang?lang=nl&ref={{ base64_encode($_SERVER['REQUEST_URI'])}}'><img src='/img/icons/flag_netherlands.png'>Dutch</a></li>
 			<li><a href='/setLang?lang=de&ref={{ base64_encode($_SERVER['REQUEST_URI'])}}'><img src='/img/icons/flag_germany.png'>German</a></li>
+			<li><a href='/setLang?lang=fr&ref={{ base64_encode($_SERVER['REQUEST_URI'])}}'><img src='/img/icons/flag_france.png'>French</a></li>
 
 		</ul></li>
             	</ul>

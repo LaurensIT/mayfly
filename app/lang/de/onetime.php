@@ -9,13 +9,13 @@ it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-Foobar is distributed in the hope that it will be useful,
+Mayfly is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+along with Mayfly.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 return array(
@@ -27,10 +27,10 @@ return array(
                 'Get Link' => 'Link abrufen',
                 'Advanced' => 'fortgeschritten',
                 'Link Validity' => 'Link-Gültigkeit',
-                '24 Hours' => '24 stunden',
+                '24 Hours' => '24 Stunden',
                 '1 Week' => '1 Woche',
-                '2 Week' => '2 Woche',
-                '30 Days' => '30 tage',
+                '2 Week' => '2 Wochen',
+                '30 Days' => '30 Tage',
                 'overview' => 'Überblick',
                 'MayFly workings' => 'MayFly betrieb',
                 'mayflyworksp1' => 'Mayfly funktioniert über public / private key-Verschlüsselung. Durch diese Technologie können wir sicher sein, dass Ihr Passwort kann ohne die Original-Link verwendet werden kann. Nie angefordert',

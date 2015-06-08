@@ -1,4 +1,4 @@
-<?php
+<?php 
 /*
 This file is part of Mayfly.
 
@@ -16,19 +16,21 @@ You should have received a copy of the GNU General Public License
 along with Mayfly.  If not, see <http://www.gnu.org/licenses/>.
 
 */
-class BaseController extends Controller {
+return array(
 
-	/**
-	 * Setup the layout used by the controller.
-	 *
-	 * @return void
-	 */
-	protected function setupLayout()
-	{
-		if ( ! is_null($this->layout))
-		{
-			$this->layout = View::make($this->layout);
-		}
-	}
+	/*
+	|--------------------------------------------------------------------------
+	| Pagination Language Lines
+	|--------------------------------------------------------------------------
+	|
+	| The following language lines are used by the paginator library to build
+	| the simple pagination links. You are free to change them to anything
+	| you want to customize your views to better match your application.
+	|
+	*/
 
-}
+	'previous' => '&laquo; Page précédente ',
+
+	'next'     => 'Page suivante &raquo;',
+
+);
