@@ -48,7 +48,7 @@ class OnetimeController extends BaseController {
 	public function setLanguage()
 	{
 		$lang = Input::Get('lang','en');
-		if ($lang != "en" && $lang != "nl" && $lang != "de")
+		if ($lang != "en" && $lang != "nl" && $lang != "de" && lang != "fr")
 			$lang = "en";
 		Session::put('lang',$lang);
 		App::setLocale(Session::Get('lang','en'));
